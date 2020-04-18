@@ -1,0 +1,24 @@
+	h1 {
+
+		color: blue;
+
+		text-align: center;
+	}
+
+	div {
+
+		background-color: purple;
+
+		width: 10%;
+
+		height: 5%;
+
+		margin: 30px;
+
+		padding: 20px;
+	}
+
+	input {
+		color: green;
+		text-align: left;
+	}
