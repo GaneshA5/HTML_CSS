@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Descendants example!</title>
+
+	<style>
+		
+		/*
+		*Styling '>' applies only the immediate child of ol
+		*Without '>', it applies to all the chile including 'li' under 'ul'
+		*/
+		ol > li {
+
+			color: red;
+		}
+
+		ul li {
+
+			color: blue;
+		}
+
+	</style>
+</head>
+<body>
+<div>
+	<ol>
+		<li>First item</li>
+		<li>Second item</li>
+		<ul>
+			<li>Sub list item 1</li>
+			<li>Sub list item 2</li>
+		</ul>
+		<li>Fourth item</li>
+
+	</ol>
+
+</div>
+</body>
+</html>
