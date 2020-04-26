@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	When you try to print the whole page certain section of page wont be available 
+	<title>Media query example!</title>
+
+	<style>
+		//. represents the class name [Note: # represents id]
+		@media print {
+			.dont-print {
+
+				display: none;
+
+			}
+		}
+
+	</style>
+</head>
+<body>
+    <p>This is a paragraph.</p>
+     <p>This is another paragraph.</p>
+      <p class="dont-print">This paragraph dont appear when we print the page.</p>
+
+
+</body>
+</html>
